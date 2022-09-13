@@ -5,11 +5,10 @@ require('dotenv').config();
 const path = require('path');
 const hbs = require('hbs');
 const mysql = require('mysql2');
-const nodemailer = require('nodemailer');
 
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 //Conexión a la Base de Datos
 const conexion = mysql.createConnection({
@@ -372,8 +371,6 @@ app.post ('/formulario', (req, res) => {
 
     const { nombrepokemon, tipo } = req.body;
 
-    console.log(nombrepokemon, tipo);
-
     if (nombrepokemon == '' || tipo == '') {
         let validacion = 'Rellene los campos';
         res.render('formulario', {
@@ -413,9 +410,6 @@ app.post('/form', (req, res) => {
             icon: 'img/RcIcons/rawpb.png',
             email: email
         });
-
-        console.log(nombre);
-        console.log(email);
 })
         
 
