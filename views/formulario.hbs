@@ -1,0 +1,39 @@
+<div class="index-title-box">
+    <img src="../img/RcIcons/rawpb.png" class="index-image">
+    <h1 class="index-title"> Ingresar Pokemons </h1>
+</div>
+
+<div class="container">
+    <div class="row formulario-container">
+        <form action="./formulario" method="post">
+            <div class="mb-3 row form-box">
+                <label for="nombrepokemon" class="col-sm-2 col-form-label label-form"> Pokemon </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control input-form" name="nombrepokemon" id="nombrepokemon" placeholder="pokemon name">
+                </div>
+            </div>
+ 
+            <div class="mb-3 row form-box">
+                <label for="tipo" class="col-sm-2 col-form-label label-form"> Tipo: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control input-form" name="tipo" id="tipo" placeholder="pokemon type">
+                </div>
+            </div>
+
+            <div class="mb-3 text-center">
+                <input type="submit" class="button btn btn-danger w-50 p-2" value="enviar datos">
+            </div>
+
+            <div class="text-center">
+                <h2 class="text-danger">
+                    {{ validacion }}
+                </h2>
+            </div>
+    
+        </form>  
+    </div>
+</div>
+
+<style>
+body{ background-image: url("../../img/pokedex/wallpf2.png"); background-attachment: scroll; background-size:cover; background-repeat: repeat-y; }
+</style>

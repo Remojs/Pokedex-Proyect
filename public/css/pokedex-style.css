@@ -1,0 +1,407 @@
+/* bootstrap Settings */
+
+li{
+    list-style-type: none;
+}
+
+.toggleform-nav .dropdown-toggle::after{
+    display: none;
+}
+
+/* Page Settings  */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+:root{
+    
+    --main-color: #c01e2e;
+    --main-color2: #000000;
+    --main-color3: #ffffff;
+}
+
+/* --- MAIN POKEMON CONTAINERS --- */
+
+.pokedex-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(38, 1fr);
+    margin-right:10px;
+    margin-left: 3px;
+}
+
+.main-pokedex{
+    list-style: none;
+}
+
+main div a{
+    text-decoration: none;
+    color: var(--main-color2);
+    font-size: 20px;
+
+}
+
+.name-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: -25px;
+    margin-top: -35px;
+}
+
+main div div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+    position: relative;
+    width: 95%;
+    height: 88%;
+    padding: 3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.pokemon-data{
+    padding-top: 95px;
+    margin-bottom: -40px;
+}
+
+/* Imagenes */
+
+.pImg{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.pImgM{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.pImgR{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.pImgC{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.pImgD{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.pImgA{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* Nombres Pokemon */
+
+.pname{
+    color: #0c0c0c;
+    font-size: 30px;
+}
+
+.pnameM{
+    color: #6b3e74;
+    font-size: 30px;
+}
+
+.pnameR{
+    color: #6b686a;
+    font-size: 30px;
+}
+
+.pnameRmin{
+    color: #6b686a;
+    font-size: 27px;
+}
+
+.pnameC{
+    color: #cf2f44;
+    font-size: 30px;
+}
+
+.pnameD{
+    color:#db7fa2;
+    font-size: 30px;
+}
+
+.pnameDmin{
+    color:#db7fa2;
+    font-size: 27px;
+}
+
+
+.pnameCmin{
+    color: #cf2f44;
+    font-size: 25px;
+}
+
+.pnameA{
+    color: #d8f1e1;
+    font-size: 30px;
+}
+
+.pnameAmin{
+    color: #d8f1e1;
+    font-size: 25px;
+}
+
+.spanC{
+    color: #b61b30;
+    font-size: 20px;
+    text-align: center;
+}
+
+.spanCmin{
+    color: #b61b30;
+    font-size: 18px;
+    text-align: center;
+}
+
+.spanD{
+    color: #8b0279;
+    font-size: 30px;
+    text-align: center;
+}
+
+.spanDmin{
+    color: #8b0279;
+    font-size: 25px;
+    text-align: center;
+}
+
+.spanA{
+    color: #d8f1e1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.spanAmin{
+    color: #d8f1e1;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Numeros Pokedex*/
+
+.pnumber{
+    color: #cecccc;
+    filter: opacity(.7);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pnumberM{
+    color: #764580;
+    filter: opacity(.5);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pnumberR{
+    color: #3f3f3f;
+    filter: opacity(.5);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pnumberC{
+    color: #c2cf6d;
+    filter: opacity(.5);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pnumberD{
+    color: #be406f;
+    filter: opacity(.5);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+.pnumberA{
+    color: #90BDA0;
+    filter: opacity(.5);
+    font-size: 125px;
+    padding-right: 63%;
+    padding-bottom: 30px;
+    position: absolute;
+    z-index: 99;
+}
+
+/* Animaciones */
+
+.pokedex-box:hover{
+    border: #ffffff 4px solid;
+}
+
+.mega:hover{
+    border: #b375d6 4px solid;
+}
+
+.regForm:hover{
+    border: #292929 4px solid;
+}
+
+main div a:hover {
+	color: var(--main-color2); 
+	text-decoration: none 
+}
+
+main div a:visited {
+	color: var(--main-color2);
+	text-decoration: none 
+}
+
+.pname:hover{
+    color: #181717;
+    text-decoration: none;
+}
+
+.pname:visited{
+    color: #0c0c0c;
+    text-decoration: none;
+}
+/*Arreglos de Imagenes*/
+
+.fix{ width: 270px; height: 270px;}
+
+.fix2{ height: 240px; width: 240px; padding-bottom: 30px;}
+
+/* Botones Pokedex */
+
+.toggleform-nav{
+    z-index: 101;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 5%;
+    background-color: #212529;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mega-button{
+    margin: 0px 3px;
+    padding: 1px 3px;
+    font-family: 'Staatliches', cursive;
+}
+
+.button-title{
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    margin: 5px 0px;
+}
+
+.on{
+    background-color: #52ff2f;
+}
+
+.on:focus{
+    background-color: #1f9e06;
+}
+
+.off{
+    background-color: #ec1919;
+}
+
+.off:focus{
+    background-color: #a71414;
+}
+
+/* Responsive */
+
+@media (min-width: 1400px) and (max-width: 2000px){
+    .pokedex-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .pokedex-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .name-img{
+        display: none;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 767.98px){
+    .pokedex-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pImg{
+        width: 130%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .pname{
+    font-size: 30px;
+    }
+
+    .pnumber{
+    font-size: 150px;
+    padding-right: 70%;
+    padding-bottom: 30px;
+    }
+
+    main div div{
+    width: 80%;
+    height: 88%;
+    padding: 2.5rem;
+    }
+
+    .pokedex-box{
+        margin-left: 10%;
+    }
+
+    .name-img{
+        display: none;
+    }
+}

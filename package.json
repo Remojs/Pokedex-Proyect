@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-proyect",
+  "version": "1.2.0",
+  "description": "Pokemon Page Proyect",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remojs/Pokemon-Type-ChartV2.git"
+  },
+  "author": "Thiago Zambonini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Remojs/Pokemon-Type-ChartV2/issues"
+  },
+  "homepage": "https://github.com/Remojs/Pokemon-Type-ChartV2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7"
+  }
+}

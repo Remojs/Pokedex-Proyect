@@ -1,0 +1,218 @@
+.region-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.region-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.region{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 500px;
+    height: 400px;
+    margin: 15px 40px;
+}
+
+.region-map{
+    border: 2px solid #000 ;
+    border-radius: 5%;
+    margin: 10px 0px;
+    height: 350px;
+    width: 500px;
+}
+
+.region-map:hover{
+    transition: all 0.4s ease;
+    margin: 10px 0px;
+    height: 370px;
+    width: 520px;
+}
+.region-name{
+    margin-left: 41%;
+    width: 110px;
+    height: 40px;
+    background-color: #816b56;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.region-link{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.region-link:hover{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.region-link:visited{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* Type Menu */
+
+.main-typemenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typemenu-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.type-options{
+    background-color: rgb(238, 230, 230);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    margin: 25px 40px;
+}
+
+.typeoption-img{
+    margin: 5px 25px 7px;
+    height: 150px;
+    width: 150px;
+}
+
+.typeoption-img:hover{
+    transition: all 0.4s ease;
+    margin: 10px 40px 30px;
+    height: 120px;
+    width: 120px;
+}
+
+.typeoption-title{
+    background-color: #333333;
+    border-radius: 10%;
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+@media (min-width: 1400px) and (max-width: 2000px){
+    .region-box{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .typemenu-box{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    .region-box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+        .region{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        width: 450px;
+        height: 350px;
+        margin: 15px 40px;
+    }
+
+    .region-map{
+        border: 2px solid #000 ;
+        border-radius: 5%;
+        margin: 10px 0px;
+        height: 300px;
+        width: 450px;
+    }
+
+    .typemenu-box{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 799px){
+    .region-box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+        .region{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        width: 450px;
+        height: 350px;
+        margin: 15px 40px;
+    }
+
+    .region-map{
+        border: 2px solid #000 ;
+        border-radius: 5%;
+        margin: 10px 0px;
+        height: 300px;
+        width: 450px;
+    }
+
+    .typemenu-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1px) and (max-width: 576px){
+    .region-box{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+        .region{
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        width: 300px;
+        height: 200px;
+        margin: 15px 40px;
+    }
+
+    .region-map{
+        border: 2px solid #000 ;
+        border-radius: 5%;
+        margin: 10px 0px;
+        height: 150px;
+        width: 300px;
+    }
+
+    .region-name{
+        margin-left: 33%;
+    }
+
+    .typemenu-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(18, 1fr);
+    }
+}

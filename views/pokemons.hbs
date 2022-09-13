@@ -1,0 +1,29 @@
+    
+    <div class="index-title-box">
+        <img src="../img/RcIcons/rawpb.png" class="index-image">
+        <h1 class="index-title"> Pokemon Table </h1>
+    </div>
+
+    <div class="container">
+        <table class="table table-pokemon">
+            <thead class="thead-pokemon">
+                <th class="th-pokemon">ID Pokemon</th>
+                <th class="th-pokemon">Pokemon Name</th>
+                <th class="th-pokemon">Type</th>
+            </thead>
+            
+            <tbody>
+                {{#each results}}
+            <tr>
+                <td class="td-pokemon">{{ id }}</td>
+                <td class="td-pokemon">{{ nombrepokemon }}</td>
+                <td class="td-pokemon">{{ tipo }}</td>
+            </tr>
+                {{/each}}
+            </tbody>
+        </table>
+</div>
+
+<style>
+body{ background-image: url("../../img/pokedex/wallpf.png"); background-attachment: scroll; background-size:cover; background-repeat: repeat-y; }
+</style>

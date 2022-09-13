@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="../css/pokedex-style.css">
+</head>
+
+    {{> pokedexfilter}}
+
+    <main class="main-pokedex">
+        <div class="pokedex-container">
+            {{> 2gen}}
+        </div>
+    </main>
+
+    
+<style>
+body{ background-image: url(../../img/pokedex/wallp2.png); background-repeat: repeat; background-attachment: scroll; background-size:auto; }
+:root{ --main-color: #D19850; --main-color2: #000000; --main-color3: #ffffff; }
+.pokedex-container{ grid-template-rows: repeat(25, 1fr);}
+</style>

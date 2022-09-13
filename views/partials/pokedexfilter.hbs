@@ -1,0 +1,33 @@
+            <nav class="fixed-top toggleform-nav" >
+                <li>
+                    <a class="nav-link dropdown-toggle nav-item-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="icon-box">
+                            <h5 class="button-title"> Filter </h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="var(--main-color)" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                        </div>
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li> <hr class="dropdown-divider"></li>
+                                <div class="button-box">
+                                    <h5 class="button-title"> Mega-evolutions </h5>
+                                    <button onclick="{{funcMon}}" class="mega-button on"> ON </button>
+                                    <button onclick="{{funcMoff}}" class="mega-button off"> OFF </button>
+                                </div>
+
+                                <div class="button-box">
+                                    <h5 class="button-title"> Regional Forms </h5>
+                                    <button onclick="{{funcRFon}}" class="mega-button on"> ON </button>
+                                    <button onclick="{{funcRFoff}}" class="mega-button off"> OFF </button>
+                                </div>
+
+                                <div class="button-box">
+                                    <h5 class="button-title"> Combat Forms </h5>
+                                    <button onclick="{{funcCFon}}" class="mega-button on"> ON </button>
+                                    <button onclick="{{funcCFoff}}" class="mega-button off"> OFF </button>
+                                </div>
+                            <li> <hr class="dropdown-divider"></li>                            
+                        </ul>
+                </li> 
+            </nav>

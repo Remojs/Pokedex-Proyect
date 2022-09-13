@@ -1,0 +1,135 @@
+body{
+	background-image:url(../../img/wllp/index-two.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER  */
+
+:root{  
+    --main-color: #c01e2e;
+    --main-color2: #212529;
+    --main-color3: #dadada;
+}
+
+.color-button-fix{
+    background-color: #dadada;
+}
+
+a{
+    font-family: 'Staatliches', cursive;
+}
+
+.profile-btn{
+    border: none;
+    background-color: var(--main-color);
+    margin-right: 10px;
+}
+
+.name-img{
+    height: 22%;
+    width: 22%;
+    padding-bottom: 3px;
+}
+
+.name{
+    height: 10%;
+    width: 10%;
+    font-size: 25px;
+    color: var(--main-color3);
+}
+
+nav li {
+    font-size: 20px;
+    color: var(--main-color3);
+}
+
+.nav-color{
+    z-index: 102;
+    background-color: #212529;
+}
+
+.nvborder{
+    border-bottom: 1px solid #dadada;
+}
+
+.dropdown-menu{
+    background-color: #212529;
+}
+
+.menu-items_centerbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+
+}
+
+.menu-items_centerbox:hover{
+    background-color: var(--main-color);
+}
+
+.menu-items{
+    color: var(--main-color3);
+    text-decoration: none;
+}
+
+.menu-items:hover {
+	color: var(--main-color3); 
+	text-decoration: none 
+}
+
+.menu-items:visited {
+	color: var(--main-color3);
+	text-decoration: none 
+}
+
+.menu-types-icon{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-item-color{
+    color: var(--main-color);
+}
+
+.nav-link:focus{
+    color: var(--main-color);
+}
+
+.nav-link:hover{
+    color: var(--main-color3);
+}
+
+.nav-link:focus{
+    color: var(--main-color);
+}
+
+.nav-link:hover{
+    color: var(--main-color3);
+}
+
+.navbar-brand:focus{
+    color: var(--main-color);
+}
+
+.navbar-brand:hover{
+    color: var(--main-color);
+}
+
+/* FOOTER */
+
+.footer-box{
+    background-color: #212529;
+    height: 145px;
+    width: 100%;
+}
+

@@ -1,0 +1,293 @@
+.pokedex-box {display: none;}
+.regForm {display: none;}
+.mega {display: none;}
+.pokedex-view{display: flex;}
+
+/* Estilo Pagina */
+
+.pokedex-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+/*Estilos de las Pokedex-Box*/
+
+main div div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    padding: 3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 100;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.pokemon-data{
+    padding-top: 80px;
+    margin-bottom: -70px;
+}
+
+/* Fondo */
+
+body{
+    background-image: url(../img/pokedex/wallpr.png);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size:auto;
+}
+
+/* Imagenes */
+
+.pImg{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+/* Nombres Pokemon */
+
+.pname{
+    color: #c1d4f8;
+    font-size: 30px;
+}
+
+.pname:hover{
+    color: #b7d0ff;
+    text-decoration: none;
+}
+
+.pname:visited{
+    color: #c1d4f8;
+    text-decoration: none;
+}
+
+/*Numeros Pokedex*/
+
+.pnumber{
+    filter: opacity(.5);
+    font-size: 170px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 100;
+}
+
+.fire .pnumber{color: #c53626;}
+.water .pnumber{color: #1187b7;}
+.steel .pnumber{color: #5c6a70;}
+.rock .pnumber{color: #585048;}
+.psychic .pnumber{color: #60396e;}
+.poison .pnumber{color: #6e4259;}
+.normal .pnumber{color: #8c8662;}
+.ice .pnumber{color: #72acbe;}
+.ghost .pnumber{color: #324474;}
+.ground .pnumber{color: #7e5228;}
+.grass .pnumber{color: #67991C;}
+.fly .pnumber{color: #189abf;}
+.fight .pnumber{color: #a1224d;}
+.fairy .pnumber{color: #bf407e;}
+.electric .pnumber{color: #cbb929;}
+.dragon .pnumber{color: #004c8a;}
+.dark .pnumber{color: #152a47;}
+.bug .pnumber{color: #1e5e2e;}
+
+/* Animaciones */
+
+.pokedex-box:hover{
+    border: #ffffff 4px solid;
+}
+
+.pImg:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.pImgD:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.pImgM:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.pImgR:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.pImgA:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+.pImgC:hover{
+    margin-bottom: 30px;
+    transition: 0.4s;
+}
+
+/*Arreglos de Imagenes*/
+
+.fix{ width: 270px; height: 270px;}
+
+.fix2{ height: 240px; width: 240px; padding-bottom: 30px;}
+
+/* Nav Rdm */
+
+.rdm-nav{
+    width: 100%;
+    height: 30%;
+    background-color: #212529;
+}
+
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rdm{
+    font-family: 'Staatliches', cursive;
+    height: 5%;
+    width: 20%;
+    background-color: #dadada;
+    border-radius: 10%;
+}
+
+/*Fondos de Pokemon Boxes*/
+
+.fire{ background-image: url(../img/pokedex/pokeTypeWllp-fire.jpg); }
+.water{ background-image: url(../img/pokedex/pokeTypeWllp-water.jpg); }
+.steel{ background-image: url(../img/pokedex/pokeTypeWllp-steel.png); }
+.rock{ background-image: url(../img/pokedex/pokeTypeWllp-rock.png); }
+.psychic{ background-image: url(../img/pokedex/pokeTypeWllp-psychic.jpg); }
+.poison{ background-image: url(../img/pokedex/pokeTypeWllp-poison.png); }
+.normal{ background-image: url(../img/pokedex/pokeTypeWllp-normal.jpg); }
+.ice{ background-image: url(../img/pokedex/pokeTypeWllp-ice.png); }
+.ghost{ background-image: url(../img/pokedex/pokeTypeWllp-ghost.jpg); }
+.ground{ background-image: url(../img/pokedex/pokeTypeWllp-ground.png); }
+.grass{ background-image: url(../img/pokedex/pokeTypeWllp-grass.jpg); }
+.fly{ background-image: url(../img/pokedex/pokeTypeWllp-fly.png); }
+.fight{ background-image: url(../img/pokedex/pokeTypeWllp-fight.jpg); }
+.fairy{ background-image: url(../img/pokedex/pokeTypeWllp-fairy.png); }
+.electric{ background-image: url(../img/pokedex/pokeTypeWllp-electric.jpg); }
+.dragon{ background-image: url(../img/pokedex/pokeTypeWllp-dragon.png); }
+.dark{ background-image: url(../img/pokedex/pokeTypeWllp-dark.png); }
+.bug{ background-image: url(../img/pokedex/pokeTypeWllp-bug.png); }
+
+
+/* Color Fixes */
+
+/* Name */
+.pnameM { color: #c1d4f8;} .pnameR { color: #c1d4f8;} .pnameRmin { color: #c1d4f8;}
+.pnameC { color: #c1d4f8;} .pnameD { color: #c1d4f8;} .pnameCmin { color: #c1d4f8;}
+
+/* Span */
+.spanC { color: #80abfc;} .spanCmin { color: #80abfc;}
+.spanD { color: #80abfc;} .spanDmin { color: #80abfc;}
+
+/* Number */
+.fire .pnumberM{color: #c53626;} .water .pnumberM{color: #1187b7;} .steel .pnumberM{color: #5c6a70;}
+.rock .pnumberM{color: #585048;} .psychic .pnumberM{color: #60396e;} .poison .pnumberM{color: #6e4259;} 
+.normal .pnumberM{color: #8c8662;} .ice .pnumberM{color: #72acbe;} .ghost .pnumberM{color: #324474;}
+.ground .pnumberM{color: #7e5228;} .grass .pnumberM{color: #67991C;} .fly .pnumberM{color: #189abf;}
+.fight .pnumberM{color: #a1224d;} .fairy .pnumberM{color: #bf407e;} .electric .pnumberM{color: #cbb929;}
+.dragon .pnumberM{color: #004c8a;} .dark .pnumberM{color: #152a47;} .bug .pnumberM{color: #1e5e2e;}
+
+.fire .pnumberR{color: #c53626;} .water .pnumberR{color: #1187b7;} .steel .pnumberR{color: #5c6a70;}
+.rock .pnumberR{color: #585048;} .psychic .pnumberR{color: #60396e;} .poison .pnumberR{color: #6e4259;} 
+.normal .pnumberR{color: #8c8662;} .ice .pnumberR{color: #72acbe;} .ghost .pnumberR{color: #324474;}
+.ground .pnumberR{color: #7e5228;} .grass .pnumberR{color: #67991C;} .fly .pnumberR{color: #189abf;}
+.fight .pnumberR{color: #a1224d;} .fairy .pnumberR{color: #bf407e;} .electric .pnumberR{color: #cbb929;}
+.dragon .pnumberR{color: #004c8a;} .dark .pnumberR{color: #152a47;} .bug .pnumberR{color: #1e5e2e;}
+
+.fire .pnumberC{color: #c53626;} .water .pnumberC{color: #1187b7;} .steel .pnumberC{color: #5c6a70;}
+.rock .pnumberC{color: #585048;} .psychic .pnumberC{color: #60396e;} .poison .pnumberC{color: #6e4259;} 
+.normal .pnumberC{color: #8c8662;} .ice .pnumberC{color: #72acbe;} .ghost .pnumberC{color: #324474;}
+.ground .pnumberC{color: #7e5228;} .grass .pnumberC{color: #67991C;} .fly .pnumberC{color: #189abf;}
+.fight .pnumberC{color: #a1224d;} .fairy .pnumberC{color: #bf407e;} .electric .pnumberC{color: #cbb929;}
+.dragon .pnumberC{color: #004c8a;} .dark .pnumberC{color: #152a47;} .bug .pnumberC{color: #1e5e2e;}
+
+.fire .pnumberA{color: #c53626;} .water .pnumberA{color: #1187b7;} .steel .pnumberA{color: #5c6a70;}
+.rock .pnumberA{color: #585048;} .psychic .pnumberA{color: #60396e;} .poison .pnumberA{color: #6e4259;} 
+.normal .pnumberA{color: #8c8662;} .ice .pnumberA{color: #72acbe;} .ghost .pnumberA{color: #324474;}
+.ground .pnumberA{color: #7e5228;} .grass .pnumberA{color: #67991C;} .fly .pnumberA{color: #189abf;}
+.fight .pnumberA{color: #a1224d;} .fairy .pnumberA{color: #bf407e;} .electric .pnumberA{color: #cbb929;}
+.dragon .pnumberA{color: #004c8a;} .dark .pnumberA{color: #152a47;} .bug .pnumberA{color: #1e5e2e;}
+
+.fire .pnumberD{color: #c53626;} .water .pnumberD{color: #1187b7;} .steel .pnumberD{color: #5c6a70;}
+.rock .pnumberD{color: #585048;} .psychic .pnumberD{color: #60396e;} .poison .pnumberD{color: #6e4259;} 
+.normal .pnumberD{color: #8c8662;} .ice .pnumberD{color: #72acbe;} .ghost .pnumberD{color: #324474;}
+.ground .pnumberD{color: #7e5228;} .grass .pnumberD{color: #67991C;} .fly .pnumberD{color: #189abf;}
+.fight .pnumberD{color: #a1224d;} .fairy .pnumberD{color: #bf407e;} .electric .pnumberD{color: #cbb929;}
+.dragon .pnumberD{color: #004c8a;} .dark .pnumberD{color: #152a47;} .bug .pnumberD{color: #1e5e2e;}
+
+/* Border Colors */
+
+.fire:hover{ border: #f04431 4px solid;}
+.water:hover{ border: #16a6df 4px solid;}
+.steel:hover{ border: #81949c 4px solid;}
+.rock:hover{ border: #85796e 4px solid;}
+.psychic:hover{ border: #8b53a0 4px solid;}
+.poison:hover{ border: #a86688 4px solid;}
+.normal:hover{ border: #b9b182 4px solid;}
+.ice:hover{ border: #8ed2e7 4px solid;}
+.ghost:hover{ border: #475fa1 4px solid;}
+.ground:hover{ border: #aa6e36 4px solid;}
+.grass:hover{ border: #83c224 4px solid;}
+.fly:hover{ border: #1fbae6 4px solid;}
+.fight:hover{ border: #d42d65 4px solid;}
+.fairy:hover{ border: #e74d97 4px solid;}
+.electric:hover{ border: #f5de32 4px solid;}
+.dragon:hover{ border: #0263b3 4px solid;}
+.dark:hover{ border: #234574 4px solid;}
+.bug:hover{ border: #2d8643 4px solid;}
+
+/* RESPONSIVE */
+
+@media (min-width: 1200px) and (max-width: 1400px){
+    .pokedex-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pnumber{
+        font-size: 150px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1200px){
+    .pokedex-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pnumber{
+        font-size: 150px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 576px){
+    .pokedex-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pnumber{
+        font-size: 150px;
+        padding-bottom: 30px;
+    }
+}

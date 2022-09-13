@@ -1,0 +1,17 @@
+<head>
+    <link rel="stylesheet" href="../../css/pokedex-style.css">
+</head>
+
+    {{> pokedexfilter}}
+
+    <main class="main-pokedex">
+        <div class="pokedex-container">
+            {{> 8gen}}
+        </div>
+    </main>
+
+<style>
+        body{ background-image: url(../../img/pokedex/wallp8.png); background-repeat: repeat; background-attachment: scroll; background-size:auto; }
+        :root{ --main-color: #B20204; --main-color2: #000000; --main-color3: #ffffff; }
+        .pokedex-container{ grid-template-rows: repeat(24, 1fr);}
+</style>

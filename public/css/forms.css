@@ -1,0 +1,98 @@
+.form-container{
+    margin: 50px 0px;
+    font-family: 'Staatliches', cursive;
+}
+
+.form-box{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-form{
+    font-size: large;
+    text-align: center;
+}
+
+.input-form{
+    color: black;
+    font-size: large;
+    height: 40px;
+    border: 2px solid transparent;
+    outline: 2px solid #745e60;
+}
+
+@media (min-width: 1400px) and (max-width: 2000px){
+    .form-container{
+        margin: 170px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1000px){
+    .form-container{
+        margin: 110px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .form-container{
+        margin: 185px 0px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 767.98px){
+    .form-container{
+        margin: 170px 0px;
+    }
+}
+
+/* FORMULARIO */
+
+.formulario-container{
+    margin: 65px 0px;
+    font-family: 'Staatliches', cursive;
+}
+
+@media (min-width: 1400px) and (max-width: 2000px){
+    .formulario-container{
+        margin: 220px 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1000px){
+    .formulario-container{
+        margin: 130px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .formulario-container{
+        margin: 210px 0px;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 767.98px){
+    .formulario-container{
+        margin: 170px 0px;
+    }
+}
+
+/* Tables */
+
+.table-pokemon{
+    border: #ffffff 1px solid;
+    background-color: #00000098;
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+} 
+
+.td-pokemon:nth-child(1){
+    padding-right: 15px;
+    color: #a00f0f;
+}
+
+.thead-pokemon{
+    background-color: #a00f0f98;
+}

@@ -1,0 +1,143 @@
+.mega{
+    background-image: url(../img/pokedex/optMegaWllp.jpg);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.mega-on{
+    background-image: url(../img/pokedex/optMegaWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.regForm{
+    background-image: url(../img/pokedex/optRegFormWllp.jpg);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.regForm-on{
+    background-image: url(../img/pokedex/optRegFormWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.combatForm{
+    background-image: url(../img/pokedex/optCombatWllp.jpg);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.combatForm-on{
+    background-image: url(../img/pokedex/optCombatWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+
+.dmax{
+    background-image: url(../img/pokedex/optDynamaxWllp.jpg);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.dmax-on{
+    background-image: url(../img/pokedex/optDynamaxWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.alter{
+    background-image: url(../img/pokedex/optAlterFormWllp.jpg);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.alter-on{
+    background-image: url(../img/pokedex/optAlterFormWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}
+
+.pokedex-box{
+    background-image: url(../img/pokedex/pokeTypeWllp.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #00000080;
+    margin: 20px 14px 20px 12px;
+    font-family: 'Staatliches', cursive;
+    border-radius: 10%;
+}

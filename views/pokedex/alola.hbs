@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="../../css/pokedex-style.css">
+</head>
+
+    {{> pokedexfilter}}
+
+    <main class="main-pokedex">
+        <div class="pokedex-container">
+            {{> 7gen}}
+        </div>
+    </main>
+
+<style>
+    body{ background-image: url(../../img/pokedex/wallp7.png); background-repeat: repeat; background-attachment: scroll; background-size:auto; }
+
+    :root{ --main-color: #5D3389; --main-color2: #000000; --main-color3: #ffffff; }
+
+    .pokedex-container{ grid-template-rows: repeat(22, 1fr); }
+
+    .fix{ width: 215px; height: 215px;}
+</style>

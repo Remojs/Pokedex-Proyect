@@ -1,0 +1,168 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page-box{
+    margin-left: 17%;
+}
+
+.types-box{
+    display: grid;
+    grid-template-areas:
+    "eff wek"
+    "res inm";  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.eff{
+    grid-area: eff;
+}
+
+.wek{
+    grid-area: wek;
+}
+
+.res{
+    grid-area: res;
+}
+
+.inm{
+    grid-area: inm;
+}
+
+.types-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 400px;
+    background-color: rgb(24, 23, 23, 0.9);
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    border-radius: 5%;
+    padding: 15px;
+    margin: 15px 30px;
+}
+
+.title{
+    padding-top: 15px;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+}
+
+.types-icon{
+    height: 45px;
+    width: 45px;
+}
+
+.types-title{
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 200%;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-title{
+    font-family: 'Staatliches', cursive;
+    padding: 15px;
+    border-radius: 3%;
+    background-color: rgb(24, 23, 23, 0.9);
+    color: var(--main-color);
+    margin-bottom: -15px;
+}
+
+.steelfix{
+    max-height: 500px;
+    width: 400px;
+}
+
+.steelfix-box{
+    height: 1900px;
+}
+
+
+/* COLOR DE LOS TIPOS */
+
+.ice{
+    color: #49d0bf;
+}
+
+.fight{
+    color: #e0306a;
+}
+
+.fairy{
+    color: #fb89eb;
+}
+
+.bug{
+    color: #83c300;
+}
+
+.dragon{
+    color: #006fc9;
+}
+
+.dark{
+    color: #534c5e;
+}
+
+.steel{
+    color: #5a8ea2;
+}
+
+.water{
+    color: #3692dc;
+}
+
+.rock{
+    color: #c8b686;
+}
+
+.psychic{
+    color: #ff6675;
+}
+
+.poison{
+    color: #b362cc;
+}
+
+.normal{
+    color: #636466;
+}
+
+.ground{
+    color: #e87236;
+}
+
+.grass{
+    color: #38bf4b;
+}
+
+.ghost{
+    color: #4d6ab2;
+}
+
+.fly{
+    color: #89aae3;
+}
+
+.fire{
+    color: #ff9843;
+}
+
+.electric{
+    color: #fbd100;
+}
+
+.none{
+    color: #c8b686;
+}

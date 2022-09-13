@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="../../css/pokedex-style.css">
+</head>
+
+    {{> pokedexfilter}}
+
+    <main class="main-pokedex">
+        <div class="pokedex-container">
+            {{> 6gen}}
+        </div>
+    </main>
+
+
+<style>
+    body { background-image: url(../../img/pokedex/wallp6.png); background-repeat: repeat; background-attachment: scroll; background-size:auto; }
+    :root { --main-color: #005F9F; --main-color2: #000000; --main-color3: #ffffff; }
+    .pokedex-container{ grid-template-rows: repeat(18, 1fr); }
+</style>

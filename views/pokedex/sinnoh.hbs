@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="../../css/pokedex-style.css">
+</head>
+
+        {{> pokedexfilter}}
+
+        <main class="main-pokedex">
+        <div class="pokedex-container">
+            {{> 4gen}}
+        </div>
+    </main>
+
+
+<style>
+    body{ background-image: url(../../img/pokedex/wallp4.png); background-repeat: repeat; background-attachment: scroll; background-size:auto; }
+    :root{ --main-color: #AF75AB; --main-color2: #000000; --main-color3: #ffffff; }
+    .pokedex-container{ grid-template-rows: repeat(27, 1fr); }
+</style>
